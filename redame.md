@@ -4,7 +4,7 @@
 
 ###Se debe configurar las siguiente secciones en el appsettings.json :
 ###la configuración de correo electrónico se realiza en la siguiente sección:
-
+```
 "EmailSettings": {
     "MailServer": "smtp.gmail.com",
     "MailPort": 465,
@@ -12,14 +12,15 @@
     "Sender": "felipe.linkthehero@gmail.com",
     "Password": "***********"
   },
+  ```
 
 ###La configuración de base de datos se realiza en la siguiente sección:
-
+```
   "ConnectionStrings": {
     "MonolegalDB": "mongodb://localhost:27017",
     "Database": "MonolegalDB"
   },
-
+```
 
 ##MonolegalApp:
 
@@ -30,6 +31,7 @@ se debe configurar la ruta del api en el archivo:
 ##Mongo:
 
 Se debe crear un DB con nombre MonolegalDB (se puede crear con otro nombre pero se debe configurar en el appsettings.json del api), luego una colección con nombre Clientes la cual se le realizara la siguiente inserción(el ejemplo incluye tres clientes, pero se pueden agregar mas):
+```
 [
   {
     "nombre": "Felipe Cardenas",
@@ -188,3 +190,4 @@ Se debe crear un DB con nombre MonolegalDB (se puede crear con otro nombre pero 
     ]
   }
 ]
+```
