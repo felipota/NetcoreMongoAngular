@@ -1,0 +1,31 @@
+<<<<<<< HEAD
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\bin\Debug\netcoreapp2.1\MonolegalApi.deps.json
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\bin\Debug\netcoreapp2.1\MonolegalApi.runtimeconfig.json
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\bin\Debug\netcoreapp2.1\MonolegalApi.runtimeconfig.dev.json
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\bin\Debug\netcoreapp2.1\MonolegalApi.dll
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\bin\Debug\netcoreapp2.1\MonolegalApi.pdb
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\obj\Debug\netcoreapp2.1\MonolegalApi.csproj.CoreCompileInputs.cache
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\obj\Debug\netcoreapp2.1\MonolegalApi.RazorAssemblyInfo.cache
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\obj\Debug\netcoreapp2.1\MonolegalApi.RazorAssemblyInfo.cs
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\obj\Debug\netcoreapp2.1\MonolegalApi.AssemblyInfoInputs.cache
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\obj\Debug\netcoreapp2.1\MonolegalApi.AssemblyInfo.cs
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\obj\Debug\netcoreapp2.1\MonolegalApi.RazorTargetAssemblyInfo.cache
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\obj\Debug\netcoreapp2.1\MonolegalApi.dll
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\obj\Debug\netcoreapp2.1\MonolegalApi.pdb
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\obj\Debug\netcoreapp2.1\MonolegalApi.csprojAssemblyReference.cache
+=======
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\bin\Debug\netcoreapp2.1\MonolegalApi.deps.json
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\bin\Debug\netcoreapp2.1\MonolegalApi.runtimeconfig.json
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\bin\Debug\netcoreapp2.1\MonolegalApi.runtimeconfig.dev.json
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\bin\Debug\netcoreapp2.1\MonolegalApi.dll
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\bin\Debug\netcoreapp2.1\MonolegalApi.pdb
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\obj\Debug\netcoreapp2.1\MonolegalApi.csproj.CoreCompileInputs.cache
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\obj\Debug\netcoreapp2.1\MonolegalApi.RazorAssemblyInfo.cache
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\obj\Debug\netcoreapp2.1\MonolegalApi.RazorAssemblyInfo.cs
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\obj\Debug\netcoreapp2.1\MonolegalApi.AssemblyInfoInputs.cache
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\obj\Debug\netcoreapp2.1\MonolegalApi.AssemblyInfo.cs
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\obj\Debug\netcoreapp2.1\MonolegalApi.RazorTargetAssemblyInfo.cache
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\obj\Debug\netcoreapp2.1\MonolegalApi.dll
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\obj\Debug\netcoreapp2.1\MonolegalApi.pdb
+C:\Proyectos\MongoDbWebApi\MonolegalApi\MonolegalApi\obj\Debug\netcoreapp2.1\MonolegalApi.csprojAssemblyReference.cache
+>>>>>>> 9bd5cb3e33341e4627f0d1eab90da82dc9784e56
