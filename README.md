@@ -26,6 +26,8 @@
 
 ## MonolegalApp:
 
+se debe traer las dependencias para que cree la carpeta ***node_modules***  desde el directorio raiz.
+
 se debe configurar la ruta del api en el archivo:
 \src\app\providers\base.url.ts
 
