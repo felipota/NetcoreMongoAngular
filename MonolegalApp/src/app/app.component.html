@@ -1,0 +1,96 @@
+<!--The content below is only a placeholder and can be replaced.-->
+        <div class="table">
+                
+							<div class="cell">
+                  <div><button (click)="ValidarFacturacion()" class="row header">Validar Facturas!</button></div>
+                </div>
+                <div class="cell">
+                    <div><button (click)="ResetFacturacion()" class="row header">Reiniciar Facturas!</button></div>
+                </div>
+          </div>
+
+<div class="limiter">
+  
+		<div class="container-table100">
+			<div class="wrap-table100">
+					<div class="table">
+
+						<div class="row header">
+							<div class="cell">
+								Codigo Factura
+							</div>
+							<div class="cell">
+								Cliente
+							</div>
+							<div class="cell">
+								Ciudad
+							</div>
+							<div class="cell">
+								Nit
+              </div>
+              <div class="cell">
+                  Total
+              </div>
+              <div class="cell">
+                  Sub Total
+                </div>
+              <div class="cell">
+								Iva
+              </div>
+              <div class="cell">
+								Retencion
+              </div>
+              <div class="cell">
+								Fecha Creación
+              </div>
+              <div class="cell">
+								Estado
+              </div>
+              <div class="cell">
+								pagada
+              </div>
+              
+						</div>
+
+						<div class="row" *ngFor="let factura of Facturas; let i = index">
+                <div class="cell" data-title="Codigo Factura">
+                    {{factura.CodigoFactura}}
+                </div>
+                <div class="cell" data-title="Cliente">
+                    {{factura.Cliente}}
+                </div>
+                <div class="cell" data-title="Ciudad">
+                    {{factura.Ciudad}}
+                </div>
+                <div class="cell" data-title="Nit">
+                    {{factura.Nit}}
+                </div>
+                <div class="cell" data-title="Total">
+                    $ {{factura.TotalFactura}}
+                </div>
+                <div class="cell" data-title="Sub Total">
+                    $ {{factura.SubTotal}}
+                </div>
+                <div class="cell" data-title="Iva">
+                    $ {{factura.Iva}}
+                </div>
+                <div class="cell" data-title="Retencion">
+                    $ {{factura.Retencion}}
+                </div>
+                <div class="cell" data-title="Fecha Creación">
+                    {{factura.FechaCreacion}}
+                </div>
+                <div class="cell" data-title="Estado">
+                    {{factura.Estado}}
+                </div>
+                <div class="cell" data-title="Pagada ">
+                    {{factura.Pagada}}
+                </div>
+						</div>
+
+
+					</div>
+			</div>
+		</div>
+	</div>
+<router-outlet></router-outlet>
