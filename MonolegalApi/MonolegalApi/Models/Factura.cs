@@ -5,32 +5,32 @@ namespace MonolegalApi.Models
 {
     public class Factura
     {
-        [BsonElement("CodigoFactura")]
-        public string CodigoFactura { get; set; }
+        [BsonElement("codigoFactura")]
+        public string codigoFactura { get; set; }
 
-        [BsonElement("FechaCreacion")]
-        public string FechaCreacion { get; set; }
+        [BsonElement("fechaCreacion")]
+        public string fechaCreacion { get; set; }
 
-        [BsonElement("FechaPago")]
-        public string FechaPago { get; set; }
+        [BsonElement("fechaPago")]
+        public string fechaPago { get; set; }
 
-        [BsonElement("Pagada")]
-        public bool Pagada { get; set; }
+        [BsonElement("pagada")]
+        public bool pagada { get; set; }
 
         [BsonElement("estado")]
         public string estado { get; set; }
 
-        [BsonElement("SubTotal")]
-        public decimal SubTotal { get; set; }
+        [BsonElement("subTotal")]
+        public decimal subTotal { get; set; }
 
-        [BsonElement("Iva")]
-        public decimal Iva { get; set; }
+        [BsonElement("iva")]
+        public decimal iva { get; set; }
 
-        [BsonElement("Retencion")]
-        public decimal Retencion { get; set; }
+        [BsonElement("retencion")]
+        public decimal retencion { get; set; }
 
-        [BsonElement("Total")]
-        public decimal Total { get; set; }
+        [BsonElement("total")]
+        public decimal total { get; set; }
     }
 }
 

@@ -11,20 +11,20 @@ namespace MonolegalApi.Models
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
 
-        [BsonElement("Nombre")]
-        public string Nombre { get; set; }
+        [BsonElement("nombre")]
+        public string nombre { get; set; }
 
-        [BsonElement("Ciudad")]
-        public string Ciudad { get; set; }
+        [BsonElement("ciudad")]
+        public string ciudad { get; set; }
 
-        [BsonElement("Correo")]
-        public string Correo { get; set; }
+        [BsonElement("correo")]
+        public string correo { get; set; }
 
-        [BsonElement("Nit")]
-        public string Nit { get; set; }
+        [BsonElement("nit")]
+        public string nit { get; set; }
 
-        [BsonElement("Facturas")]
-        public List<Factura> Facturas { get; set; }
+        [BsonElement("facturas")]
+        public List<Factura> facturas { get; set; }
 
     }
 }

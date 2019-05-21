@@ -22,27 +22,27 @@ namespace MonolegalApi.BL
         {
             decimal totalFacturas = 0;
             int cantFacturas = 0;
-            cliente.Facturas.ForEach(factura =>
+            cliente.facturas.ForEach(factura =>
             {
-                if (!factura.Pagada)
+                if (!factura.pagada)
                 {
                     cantFacturas++;
-                    totalFacturas += factura.Total;
+                    totalFacturas += factura.total;
                 }
             });
             if (cantFacturas > 2 && totalFacturas >= 10000)
             {
-                cliente.Facturas.ForEach(factura =>
+                cliente.facturas.ForEach(factura =>
                 {
-                    if (!factura.Pagada && factura.estado == EstadosFactura.SegundoRecordatorio)
+                    if (!factura.pagada && factura.estado == EstadosFactura.SegundoRecordatorio)
                     {
                         factura.estado = EstadosFactura.Desactivado;
                     }
                 });
                 _ICLienteService.Update(cliente.Id.ToString(), cliente);
-                emailSubject = $"{emailSubject} {cliente.Nombre}";
+                emailSubject = $"{emailSubject} {cliente.nombre}";
                 emailBody = $"{emailBody} {totalFacturas} sus facturas cambian a estado {EstadosFactura.Desactivado}";
-                _EmailSender.SendEmailAsync(cliente.Correo, emailSubject, emailBody);
+                _EmailSender.SendEmailAsync(cliente.correo, emailSubject, emailBody);
             }
             
             return false;

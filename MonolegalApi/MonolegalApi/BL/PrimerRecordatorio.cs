@@ -20,18 +20,18 @@ namespace MonolegalApi.BL
         public bool ValidateEstado(Cliente cliente)
         {
             decimal totalFacturas = 0;
-            cliente.Facturas.ForEach(factura =>
+            cliente.facturas.ForEach(factura =>
             {
-                if(!factura.Pagada && factura.estado == EstadosFactura.PrimerRecordatorio)
+                if(!factura.pagada && factura.estado == EstadosFactura.PrimerRecordatorio)
                 {
                     factura.estado = EstadosFactura.SegundoRecordatorio;
-                    totalFacturas += factura.Total;
+                    totalFacturas += factura.total;
                 }
             });
             _ICLienteService.Update(cliente.Id.ToString(), cliente);
-            emailSubject = $"{emailSubject} {cliente.Nombre}";
+            emailSubject = $"{emailSubject} {cliente.nombre}";
             emailBody = $"{emailBody} {totalFacturas} sus facturas cambian a estado {EstadosFactura.SegundoRecordatorio}";
-            _EmailSender.SendEmailAsync(cliente.Correo, emailSubject, emailBody);
+            _EmailSender.SendEmailAsync(cliente.correo, emailSubject, emailBody);
             return false;
         }
     }

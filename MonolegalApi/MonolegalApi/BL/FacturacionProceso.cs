@@ -24,7 +24,7 @@ namespace MonolegalApi.BL
             clietes.ForEach(cliente => {
                 int SegundoAvisoCont = 0;
                 int PrimerAvisoCont = 0;
-                cliente.Facturas.ForEach(Factura => {
+                cliente.facturas.ForEach(Factura => {
                     OperadorFactura op = GetPropValue(Factura.estado);
                     switch (op)
                     {
@@ -53,7 +53,7 @@ namespace MonolegalApi.BL
         {
             List<Cliente> clietes = _ICLienteService.Get();
             clietes.ForEach(cliente => {
-                    cliente.Facturas.ForEach(factura => {
+                    cliente.facturas.ForEach(factura => {
                         factura.estado = EstadosFactura.PrimerRecordatorio;
                     });
                 _ICLienteService.Update(cliente.Id.ToString(),cliente);
